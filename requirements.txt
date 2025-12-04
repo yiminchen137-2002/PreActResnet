@@ -1,0 +1,9 @@
+torch>=2.5.1
+torchvision>=0.20.1
+numpy>=2.0.2
+matplotlib>=3.9.4
+Pillow>=11.3.0
+timm>=1.0.21
+tqdm>=4.67.1
+huggingface-hub>=0.36.0
+safetensors>=0.6.2
