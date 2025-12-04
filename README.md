@@ -18,6 +18,7 @@
 | 框架 | PyTorch >= 2.5.1 |
 
 ## 结果展示
+你可以在[Results](Results)目录下查看我们的训练日志和结果
 ![优化器性能比较](cifar10_optimizer_comparison.png)
 
 ## 安装要求
@@ -180,15 +181,6 @@ python test.py
 - MixUp: 图像和标签的线性插值
 - CutMix: 将一张图片的部分区域替换为另一张图片
 
-## 结果展示
-
-你可以在[Results](Results)目录下查看我们的训练日志和结果
-在CIFAR-10测试集上的性能表现：
-
-| 模型 | 准确率 | 备注 |
-| :--- | :--- | :--- |
-| PreActResNet | ~95% | 使用全部优化技术 |
-
 ## 可视化
 
 训练过程中的指标可以通过TensorBoard进行可视化：
@@ -201,6 +193,7 @@ tensorboard --logdir=runs/
 - 训练损失和准确率
 - 测试准确率
 - 学习率变化
+
 
 
 
