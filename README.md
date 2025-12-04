@@ -6,8 +6,6 @@
 
 本项目实现了基于Pre-Activation ResNet和ResNeXt的高效图像分类模型，专为CIFAR-10数据集优化。通过先进的训练技术和数据增强方法，我们的模型在CIFAR-10上达到了优异的性能表现。
 
-![intro](fig/model_architecture.png)
-
 <!-- ## 🔥News
 - **2025-12-04** 项目发布，包含完整的训练、测试和优化流程 -->
 
