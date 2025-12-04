@@ -149,6 +149,31 @@ python test_with_checkpoints.py
 | epochs | 200 | 训练轮数 |
 | lr | 0.05 | 初始学习率 |
 | optimizer | Adagrad | 优化器类型 |
+| :--- | :--- | :--- |
+| batch_size | 512 | 批处理大小 |
+| epochs | 200 | 训练轮数 |
+| lr | 0.001| 初始学习率 |
+| optimizer | Adamw | 优化器类型 |
+| :--- | :--- | :--- |
+| batch_size | 512 | 批处理大小 |
+| epochs | 200 | 训练轮数 |
+| lr | 0.003| 初始学习率 |
+| optimizer | Adam | 优化器类型 |
+| :--- | :--- | :--- |
+| batch_size | 128 | 批处理大小 |
+| epochs | 200 | 训练轮数 |
+| lr | 0.0001| 初始学习率 |
+| optimizer | RMSprop | 优化器类型 |
+| :--- | :--- | :--- |
+| batch_size | 512 | 批处理大小 |
+| epochs | 200 | 训练轮数 |
+| lr | 0.2| 初始学习率 |
+| optimizer | SGD_M | 优化器类型 |
+| :--- | :--- | :--- |
+| batch_size | 512 | 批处理大小 |
+| epochs | 200 | 训练轮数 |
+| lr | 0.1| 初始学习率 |
+| optimizer | SGD_N | 优化器类型 |
 
 ### 数据增强策略
 
@@ -171,7 +196,6 @@ python test_with_checkpoints.py
 | 模型 | 准确率 | 备注 |
 | :--- | :--- | :--- |
 | PreActResNet | ~95% | 使用全部优化技术 |
-| ResNeXt29_8x64d | ~94% | 基础版本 |
 
 ## 可视化
 
@@ -185,4 +209,5 @@ tensorboard --logdir=runs/
 - 训练损失和准确率
 - 测试准确率
 - 学习率变化
+
 
