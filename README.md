@@ -1,5 +1,5 @@
 # PreActResNet: 高效的图像分类深度学习模型
-Created by yimin chen, wenhan lai
+Created by [yimin chen],[wenhan lai]。
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
@@ -199,6 +199,7 @@ tensorboard --logdir=runs/
 - 训练损失和准确率
 - 测试准确率
 - 学习率变化
+
 
 
 
